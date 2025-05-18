@@ -1,10 +1,10 @@
 class Tester:
 
-    def __init__(self, name):  #пропущен self
+    def __init__(self, name):  # пропущен self
         self.name = name
         self.deadline = True
 
-    def work_hard(self, deadline=None):  #учёт параметра deadline, если он != None
+    def work_hard(self, deadline=None):  # учёт параметра deadline, если он != None
         if deadline is not None:
             self.deadline = deadline
         if self.deadline:
